@@ -5,11 +5,11 @@
 git config --global user.name "bogdan-kabanov"
 git config --global user.email "bogdankabanovprof@gmail.com"
 
-# Добавление всех файлов (включая .nojekyll и обновленный index.html)
+# Добавление всех файлов (включая изображения и все ресурсы)
 git add .
 
 # Коммит
-git commit -m "Fix GitHub Pages paths with base href"
+git commit -m "Configure for root domain GitHub Pages"
 
 # Push
 git push -u origin main
@@ -17,7 +17,10 @@ git push -u origin main
 echo ""
 echo "✅ Код запушен в GitHub!"
 echo "🌐 Ваш сайт будет доступен по адресу:"
-echo "   https://bogdan-kabanov.github.io/oaa/"
+echo "   https://bogdan-kabanov.github.io/"
 echo ""
 echo "⏳ Подождите 1-2 минуты для деплоя GitHub Pages"
+echo ""
+echo "⚠️  ВАЖНО: Для работы по корневому адресу репозиторий должен называться"
+echo "   'bogdan-kabanov.github.io' (не 'oaa')"
 
