@@ -9,7 +9,7 @@ git config --global user.email "bogdankabanovprof@gmail.com"
 git add .
 
 # Коммит
-git commit -m "Add .nojekyll and fix paths for GitHub Pages"
+git commit -m "Fix GitHub Pages paths with base href"
 
 # Push
 git push -u origin main
